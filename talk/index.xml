@@ -5,7 +5,7 @@
     <link>http://marceldallagnol.github.io/talk/</link>
       <atom:link href="http://marceldallagnol.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 16:50:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 11:30:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,26 +13,18 @@
     </image>
     
     <item>
+      <title>Quantum proofs of proximity</title>
+      <link>http://marceldallagnol.github.io/talk/qmap-wpccs/</link>
+      <pubDate>Mon, 14 Dec 2020 11:30:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/talk/qmap-wpccs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A structural theorem for local algorithms with applications to coding, testing and delegation</title>
       <link>http://marceldallagnol.github.io/talk/daisies-wola/</link>
       <pubDate>Mon, 20 Jul 2020 16:50:00 +0100</pubDate>
       <guid>http://marceldallagnol.github.io/talk/daisies-wola/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sunflowers, daisies and local codes</title>
-      <link>http://marceldallagnol.github.io/talk/daisies-wpccs/</link>
-      <pubDate>Mon, 09 Dec 2019 11:50:00 +0000</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/daisies-wpccs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sunflowers, daisies and local codes</title>
-      <link>http://marceldallagnol.github.io/talk/daisies-birkbeck/</link>
-      <pubDate>Tue, 26 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/daisies-birkbeck/</guid>
       <description></description>
     </item>
     

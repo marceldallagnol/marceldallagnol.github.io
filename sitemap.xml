@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://marceldallagnol.github.io/talk/daisies-wola/</loc>
-    <lastmod>2020-07-20T16:50:00+01:00</lastmod>
+    <loc>http://marceldallagnol.github.io/</loc>
+    <lastmod>2020-12-14T11:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://marceldallagnol.github.io/</loc>
-    <lastmod>2020-07-20T16:50:00+01:00</lastmod>
+    <loc>http://marceldallagnol.github.io/talk/qmap-wpccs/</loc>
+    <lastmod>2020-12-14T11:30:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://marceldallagnol.github.io/talk/</loc>
+    <lastmod>2020-12-14T11:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marceldallagnol.github.io/talk/daisies-wola/</loc>
     <lastmod>2020-07-20T16:50:00+01:00</lastmod>
   </url>
   
@@ -50,16 +55,6 @@
   <url>
     <loc>http://marceldallagnol.github.io/authors/tom-gur/</loc>
     <lastmod>2020-07-15T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marceldallagnol.github.io/talk/daisies-wpccs/</loc>
-    <lastmod>2019-12-09T11:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marceldallagnol.github.io/talk/daisies-birkbeck/</loc>
-    <lastmod>2019-11-26T16:00:00+00:00</lastmod>
   </url>
   
   <url>
