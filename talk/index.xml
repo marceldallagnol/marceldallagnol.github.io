@@ -5,12 +5,20 @@
     <link>http://marceldallagnol.github.io/talk/</link>
       <atom:link href="http://marceldallagnol.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 11:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jan 2021 16:45:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>http://marceldallagnol.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>A structural theorem for local algorithms with applications to coding, testing and privacy</title>
+      <link>http://marceldallagnol.github.io/talk/daisies-soda/</link>
+      <pubDate>Tue, 12 Jan 2021 16:45:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/talk/daisies-soda/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quantum proofs of proximity</title>

@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://marceldallagnol.github.io/</loc>
-    <lastmod>2020-12-14T11:30:00+00:00</lastmod>
+    <loc>http://marceldallagnol.github.io/talk/daisies-soda/</loc>
+    <lastmod>2021-01-12T16:45:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://marceldallagnol.github.io/talk/qmap-wpccs/</loc>
-    <lastmod>2020-12-14T11:30:00+00:00</lastmod>
+    <loc>http://marceldallagnol.github.io/</loc>
+    <lastmod>2021-01-12T16:45:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://marceldallagnol.github.io/talk/</loc>
+    <lastmod>2021-01-12T16:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marceldallagnol.github.io/talk/qmap-wpccs/</loc>
     <lastmod>2020-12-14T11:30:00+00:00</lastmod>
   </url>
   
