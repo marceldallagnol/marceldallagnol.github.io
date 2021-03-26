@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Justin Thaler | Marcel&#39;s website</title>
+    <link>http://marceldallagnol.github.io/authors/justin-thaler/</link>
+      <atom:link href="http://marceldallagnol.github.io/authors/justin-thaler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Justin Thaler</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://marceldallagnol.github.io/img/icon-192.png</url>
+      <title>Justin Thaler</title>
+      <link>http://marceldallagnol.github.io/authors/justin-thaler/</link>
+    </image>
+    
+    <item>
+      <title>Quantum Proofs of Proximity</title>
+      <link>http://marceldallagnol.github.io/publication/qmap/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/qmap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

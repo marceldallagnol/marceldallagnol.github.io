@@ -5,12 +5,28 @@
     <link>http://marceldallagnol.github.io/</link>
       <atom:link href="http://marceldallagnol.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Marcel&#39;s website</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jan 2021 16:45:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Mar 2021 15:30:00 +0100</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Marcel&#39;s website</title>
       <link>http://marceldallagnol.github.io/</link>
     </image>
+    
+    <item>
+      <title>Quantum proofs of proximity</title>
+      <link>http://marceldallagnol.github.io/talk/qmap-bctcs/</link>
+      <pubDate>Tue, 30 Mar 2021 15:30:00 +0100</pubDate>
+      <guid>http://marceldallagnol.github.io/talk/qmap-bctcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Proofs of Proximity</title>
+      <link>http://marceldallagnol.github.io/publication/qmap/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/qmap/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A structural theorem for local algorithms with applications to coding, testing and privacy</title>
