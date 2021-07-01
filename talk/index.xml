@@ -5,7 +5,7 @@
     <link>http://marceldallagnol.github.io/talk/</link>
       <atom:link href="http://marceldallagnol.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Mar 2021 15:30:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jul 2021 17:25:00 +0100</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Quantum proofs of proximity</title>
-      <link>http://marceldallagnol.github.io/talk/qmap-bctcs/</link>
-      <pubDate>Tue, 30 Mar 2021 15:30:00 +0100</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/qmap-bctcs/</guid>
+      <link>http://marceldallagnol.github.io/talk/qmap-tqc/</link>
+      <pubDate>Mon, 05 Jul 2021 17:25:00 +0100</pubDate>
+      <guid>http://marceldallagnol.github.io/talk/qmap-tqc/</guid>
       <description></description>
     </item>
     
@@ -25,22 +25,6 @@
       <link>http://marceldallagnol.github.io/talk/daisies-soda/</link>
       <pubDate>Tue, 12 Jan 2021 16:45:00 +0000</pubDate>
       <guid>http://marceldallagnol.github.io/talk/daisies-soda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantum proofs of proximity</title>
-      <link>http://marceldallagnol.github.io/talk/qmap-wpccs/</link>
-      <pubDate>Mon, 14 Dec 2020 11:30:00 +0000</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/qmap-wpccs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A structural theorem for local algorithms with applications to coding, testing and delegation</title>
-      <link>http://marceldallagnol.github.io/talk/daisies-wola/</link>
-      <pubDate>Mon, 20 Jul 2020 16:50:00 +0100</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/daisies-wola/</guid>
       <description></description>
     </item>
     

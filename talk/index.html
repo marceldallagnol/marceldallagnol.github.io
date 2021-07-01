@@ -131,7 +131,7 @@
   <meta property="og:description" content="PhD student"><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
   <meta property="twitter:image" content="http://marceldallagnol.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-03-30T15:30:00&#43;01:00">
+    <meta property="og:updated_time" content="2021-07-05T17:25:00&#43;01:00">
   
 
   
@@ -449,14 +449,14 @@
       
       <div>
         <span>
-          30/03/2021
+          05/07/2021  at  17:25
         </span>
         
         
         
           <span class="middot-divider"></span>
           
-            <span><a href="https://intranet.csc.liv.ac.uk/~bctcs2021/program/" >BCTCS 2021</a></span>
+            <span><a href="https://tqc2021.lu.lv/" >TQC 2021</a></span>
           
         
         
@@ -497,11 +497,19 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/qmap-slides.pdf" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/qmap-tqc.pdf" rel="noopener">
   Slides
 </a>
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=GzcbGrcCoF8" rel="noopener">
+  Video
+</a>
 
 
 
@@ -509,7 +517,10 @@
 
         
           <div class="content">
-            With the prevalence of massive datasets and small computing devices, offloading computation becomes increasingly important. One may model this problem as follows: a weak device (the &ldquo;verifier&rdquo;) holds an input string and communicates with an all-powerful computer (the &ldquo;prover&rdquo;) so as to verify the validity of this string. Since the verifier cannot perform the verification on its own, the prover provides a digest of the computational task, allowing the verifier to check that it was performed correctly. In the extreme setting of property testing, the verifier cannot even read all of its input, and must decide whether it is valid or far from any valid string; in this case, the the digest is called a proof of proximity. We formalise the notion of quantum proofs of proximity, where prover and verifier are quantum computers, and show that a large class of properties admits quantum speedups. We also begin to chart the complexity landscape of the quantum/classical as well as the interactive/non-interactive variants of these proof systems.
+            <p>We initiate the systematic study of QMA algorithms in the setting of property testing, to which we refer as <em>QMA proofs of proximity</em> (QMAPs). These are quantum query algorithms that receive explicit access to a sublinear-size untrusted proof and are required to accept inputs having a property $\Pi$ and reject inputs that are $\varepsilon$-far from $\Pi$, while only probing a minuscule portion of their input.</p>
+<p>Our algorithmic results include a general-purpose theorem that enables quantum speedups for testing an expressive class of properties, namely, those that are succinctly <em>decomposable</em>. Furthermore, we show quantum speedups for properties that lie outside of this family, such as graph bipartitneness.</p>
+<p>We also investigate the complexity landscape of this model, showing that QMAPs can be <em>exponentially</em> stronger than both classical proofs of proximity and quantum testers. To this end, we extend the methodology of Blais, Brody and Matulef (Computational Complexity, 2012) to prove quantum property testing lower bounds via reductions from communication complexity, thereby resolving a problem raised by Montanaro and de Wolf (Theory of Computing, 2016).</p>
+
           </div>
         
       </div>
@@ -645,256 +656,6 @@
 </li>
 </ul>
 <p>Our techniques strongly rely on relaxed sunflower lemmas and the Hajnal–Szemerédi theorem.</p>
-
-          </div>
-        
-      </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-            
-          
-
-        </div>
-      </div>
-      
-      <div class="row" id="talk_list">
-        <div class="col-lg-2">
-          <h3>2020</h3>
-        </div>
-        <div class="col-lg-10">
-
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      
-        Quantum proofs of proximity
-      
-    </h3>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          14/12/2020
-        </span>
-        
-        
-        
-          <span class="middot-divider"></span>
-          
-            <span><a href="https://warwick.ac.uk/fac/sci/dcs/research/wpccs/wpccs20/schedule/" >WPCCS 2020</a></span>
-          
-        
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-
-    
-      <div class="btn-links">
-        
-
-
-
-
-<span class="collapsible btn btn-outline-dark my-1 mr-1 btn-sm">
-  Abstract
-</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/qmap-wpccs.pdf" rel="noopener">
-  Slides
-</a>
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=966gF2o3irY" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-        
-          <div class="content">
-            With the prevalence of massive datasets and small computing devices, offloading computation becomes increasingly important. One may model this problem as follows: a weak device (the &ldquo;verifier&rdquo;) holds an input string and communicates with an all-powerful computer (the &ldquo;prover&rdquo;) so as to verify the validity of this string. Since the verifier cannot perform the verification on its own, the prover provides a digest of the computational task, allowing the verifier to check that it was performed correctly. In an extreme setting, the verifier cannot even read all of its input, and must decide whether it is valid or far from any valid string; in this case, the digest is called a proof of proximity. We formalise quantum proofs of proximity, where prover and verifier are quantum computers, and begin to chart the complexity landscape of the quantum/classical as well as the interactive/non-interactive variants of these proof systems. This is joint work with Tom Gur and Subhayan Roy Moulik.
-          </div>
-        
-      </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-            
-          
-            
-              
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      
-        A structural theorem for local algorithms with applications to coding, testing and delegation
-      
-    </h3>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          20/07/2020
-        </span>
-        
-        
-        
-          <span class="middot-divider"></span>
-          
-            <span><a href="https://www.mit.edu/~mahabadi/workshops/WOLA-2020.html" >WOLA 2020</a></span>
-          
-        
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-
-    
-      <div class="btn-links">
-        
-
-
-
-
-<span class="collapsible btn btn-outline-dark my-1 mr-1 btn-sm">
-  Abstract
-</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=yqhB6WQ031Y" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-        
-          <div class="content">
-            <p>Motivated by the applicability of relaxed sunflower techniques to property testing and local decoding, we define a common framework that captures a wide family of local algorithms, encompassing those as well as proofs of proximity. This enables us to show that the structure of every algorithm that makes a constant number of adaptive queries and satisfies a natural robustness condition admits a sample-based algorithm with sublinear sample complexity; moreover, this transformation is nearly optimal.</p>
-<p>The talk will give an overview of the general framework and the transformation from adaptive to sample-based algorithms, which relies heavily on relaxed sunflower lemmas and the Hajnal-Szemerédi theorem. Applying this transformation to particular cases, we obtain: (1) a strengthening of the state-of-the-art lower bound for relaxed locally decodable codes that improves the dependency in query complexity exponentially; (2) a transformation of any constant-query tester into a sample-based tester with sublinear sample complexity, that was previously known to hold only for non-adaptive testers; and (3) a limit on the power of sublinear-time delegation of computation, by showing almost tightness of the known separation between testers and proofs of proximity.</p>
-<p>Joint work with Tom Gur and Oded Lachish.</p>
 
           </div>
         
