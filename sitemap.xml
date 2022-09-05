@@ -2,37 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://marceldallagnol.github.io/publication_types/0/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/authors/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/authors/christopher-hickey/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/authors/graham-cormode/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://marceldallagnol.github.io/</loc>
-    <lastmod>2021-07-05T17:25:00+00:00</lastmod>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/publication_types/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/publication/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/publication/streaming-zk/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/authors/tom-gur/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/talk/daisies-halg/</loc>
+    <lastmod>2022-07-01T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/talk/</loc>
+    <lastmod>2022-07-01T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/authors/nicholas-spooner/</loc>
+    <lastmod>2021-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://marceldallagnol.github.io/publication/chosen-bit-binding/</loc>
+    <lastmod>2021-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://marceldallagnol.github.io/talk/qmap-tqc/</loc>
     <lastmod>2021-07-05T17:25:00+00:00</lastmod>
   </url><url>
-    <loc>http://marceldallagnol.github.io/talk/</loc>
-    <lastmod>2021-07-05T17:25:00+00:00</lastmod>
-  </url><url>
-    <loc>http://marceldallagnol.github.io/publication_types/0/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://marceldallagnol.github.io/authors/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://marceldallagnol.github.io/authors/justin-thaler/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://marceldallagnol.github.io/publication_types/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://marceldallagnol.github.io/publication/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://marceldallagnol.github.io/publication/qmap/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://marceldallagnol.github.io/authors/subhayan-roy-moulik/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://marceldallagnol.github.io/authors/tom-gur/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://marceldallagnol.github.io/talk/daisies-soda/</loc>
@@ -43,9 +61,6 @@
   </url><url>
     <loc>http://marceldallagnol.github.io/authors/oded-lachish/</loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://marceldallagnol.github.io/talk/cryptorave/</loc>
-    <lastmod>2018-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://marceldallagnol.github.io/publication_types/1/</loc>
     <lastmod>2013-04-27T00:00:00+00:00</lastmod>

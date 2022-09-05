@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graham Cormode | Marcel&#39;s website</title>
+    <link>http://marceldallagnol.github.io/authors/graham-cormode/</link>
+      <atom:link href="http://marceldallagnol.github.io/authors/graham-cormode/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graham Cormode</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://marceldallagnol.github.io/img/icon-192.png</url>
+      <title>Graham Cormode</title>
+      <link>http://marceldallagnol.github.io/authors/graham-cormode/</link>
+    </image>
+    
+    <item>
+      <title>Streaming Zero-Knowledge Proofs</title>
+      <link>http://marceldallagnol.github.io/publication/streaming-zk/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/streaming-zk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

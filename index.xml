@@ -5,12 +5,36 @@
     <link>http://marceldallagnol.github.io/</link>
       <atom:link href="http://marceldallagnol.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Marcel&#39;s website</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jul 2021 17:25:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Marcel&#39;s website</title>
       <link>http://marceldallagnol.github.io/</link>
     </image>
+    
+    <item>
+      <title>Streaming Zero-Knowledge Proofs</title>
+      <link>http://marceldallagnol.github.io/publication/streaming-zk/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/streaming-zk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Structural Theorem for Local Algorithms with Applications to Coding, Testing, and Privacy</title>
+      <link>http://marceldallagnol.github.io/talk/daisies-halg/</link>
+      <pubDate>Fri, 01 Jul 2022 14:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/talk/daisies-halg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Necessity of Collapsing</title>
+      <link>http://marceldallagnol.github.io/publication/chosen-bit-binding/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/chosen-bit-binding/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quantum proofs of proximity</title>
@@ -41,14 +65,6 @@
       <link>http://marceldallagnol.github.io/publication/daisy2/</link>
       <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
       <guid>http://marceldallagnol.github.io/publication/daisy2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The mathematical beauty of cryptography (in Portuguese)</title>
-      <link>http://marceldallagnol.github.io/talk/cryptorave/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/cryptorave/</guid>
       <description></description>
     </item>
     

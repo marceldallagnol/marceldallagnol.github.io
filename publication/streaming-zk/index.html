@@ -28,10 +28,14 @@
   
     
   
-  <meta name="description" content="PhD student">
+  <meta name="description" content="We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass sequential access to a massive stream of data communicates with an all-powerful but untrusted prover to verify a computation that requires large space.
+
+ We define the notion of *zero-knowledge* in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the *sumcheck* and *polynomial evaluation* protocols. To the best of our knowledge *all* known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, range queries, median and inner product.
+
+ En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a *homomorphic streaming commitment scheme* and a *temporal commitment protocol*. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity.">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://marceldallagnol.github.io/authors/troels-e.-hansen/">
+  <link rel="alternate" hreflang="en-us" href="http://marceldallagnol.github.io/publication/streaming-zk/">
 
   
 
@@ -56,14 +60,6 @@
     
       
     
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
     
 
     
@@ -106,14 +102,12 @@
 
 
   
-  <link rel="alternate" href="/authors/troels-e.-hansen/index.xml" type="application/rss+xml" title="Marcel&#39;s website">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://marceldallagnol.github.io/authors/troels-e.-hansen/">
+  <link rel="canonical" href="http://marceldallagnol.github.io/publication/streaming-zk/">
 
   
   
@@ -126,18 +120,67 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Marcel&#39;s website">
-  <meta property="og:url" content="http://marceldallagnol.github.io/authors/troels-e.-hansen/">
-  <meta property="og:title" content="Troels E. Hansen | Marcel&#39;s website">
-  <meta property="og:description" content="PhD student"><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
+  <meta property="og:url" content="http://marceldallagnol.github.io/publication/streaming-zk/">
+  <meta property="og:title" content="Streaming Zero-Knowledge Proofs | Marcel&#39;s website">
+  <meta property="og:description" content="We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass sequential access to a massive stream of data communicates with an all-powerful but untrusted prover to verify a computation that requires large space.
+
+ We define the notion of *zero-knowledge* in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the *sumcheck* and *polynomial evaluation* protocols. To the best of our knowledge *all* known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, range queries, median and inner product.
+
+ En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a *homomorphic streaming commitment scheme* and a *temporal commitment protocol*. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity."><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
   <meta property="twitter:image" content="http://marceldallagnol.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2013-04-27T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-09-04T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-09-04T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://marceldallagnol.github.io/publication/streaming-zk/"
+  },
+  "headline": "Streaming Zero-Knowledge Proofs",
+  
+  "datePublished": "2022-09-04T00:00:00Z",
+  "dateModified": "2022-09-04T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Christopher Hickey"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marcel's website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://marceldallagnol.github.io/img/icon-512.png"
+    }
+  },
+  "description": "We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass sequential access to a massive stream of data communicates with an all-powerful but untrusted prover to verify a computation that requires large space.\n\n We define the notion of *zero-knowledge* in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the *sumcheck* and *polynomial evaluation* protocols. To the best of our knowledge *all* known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, range queries, median and inner product.\n\n En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a *homomorphic streaming commitment scheme* and a *temporal commitment protocol*. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity."
+}
+</script>
+
+  
 
   
 
@@ -145,10 +188,13 @@
   
 
 
+  
 
 
 
-  <title>Troels E. Hansen | Marcel&#39;s website</title>
+
+
+  <title>Streaming Zero-Knowledge Proofs | Marcel&#39;s website</title>
 
 </head>
 
@@ -366,35 +412,224 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1>Troels E. Hansen</h1>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Streaming Zero-Knowledge Proofs</h1>
+
+  
+
+  
+    
+
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+
+  
+  with
+  <span>Christopher Hickey</span>, <span><a href="https://www.dcs.warwick.ac.uk/~tomgur/">Tom Gur</a></span> and <span><a href="https://www.dimacs.rutgers.edu/~graham/">Graham Cormode</a></span>.
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+<span class="collapsible btn btn-outline-dark my-1 mr-1">
+  Abstract
+</span>
+
+
+
+
+
+  
+  
+      
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eprint.iacr.org/2022/786" rel="noopener">
+  ePrint
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass sequential access to a massive stream of data communicates with an all-powerful but untrusted prover to verify a computation that requires large space.</p>
+<p>We define the notion of <em>zero-knowledge</em> in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the <em>sumcheck</em> and <em>polynomial evaluation</em> protocols. To the best of our knowledge <em>all</em> known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, range queries, median and inner product.</p>
+<p>En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a <em>homomorphic streaming commitment scheme</em> and a <em>temporal commitment protocol</em>. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity.</p>
+</p>
     
 
     
-    
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/motiondraw/">MotionDraw: a Tool for Enhancing Art and Performance Using Kinect</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/christopher-hickey/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
   </div>
-</section>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 
@@ -415,12 +650,6 @@
       
 
       
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
-        
-      
 
       
       
@@ -434,8 +663,6 @@
     
 
     
-    
-    <script>hljs.initHighlightingOnLoad();</script>
     
 
     

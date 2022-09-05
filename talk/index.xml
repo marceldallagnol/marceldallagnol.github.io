@@ -5,12 +5,20 @@
     <link>http://marceldallagnol.github.io/talk/</link>
       <atom:link href="http://marceldallagnol.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Jul 2021 17:25:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 14:00:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>http://marceldallagnol.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>A Structural Theorem for Local Algorithms with Applications to Coding, Testing, and Privacy</title>
+      <link>http://marceldallagnol.github.io/talk/daisies-halg/</link>
+      <pubDate>Fri, 01 Jul 2022 14:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/talk/daisies-halg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quantum proofs of proximity</title>
@@ -25,14 +33,6 @@
       <link>http://marceldallagnol.github.io/talk/daisies-soda/</link>
       <pubDate>Tue, 12 Jan 2021 16:45:00 +0000</pubDate>
       <guid>http://marceldallagnol.github.io/talk/daisies-soda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The mathematical beauty of cryptography (in Portuguese)</title>
-      <link>http://marceldallagnol.github.io/talk/cryptorave/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://marceldallagnol.github.io/talk/cryptorave/</guid>
       <description></description>
     </item>
     
