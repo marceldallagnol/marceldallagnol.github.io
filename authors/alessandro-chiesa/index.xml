@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alessandro Chiesa | Marcel&#39;s website</title>
+    <link>http://marceldallagnol.github.io/authors/alessandro-chiesa/</link>
+      <atom:link href="http://marceldallagnol.github.io/authors/alessandro-chiesa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alessandro Chiesa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://marceldallagnol.github.io/img/icon-192.png</url>
+      <title>Alessandro Chiesa</title>
+      <link>http://marceldallagnol.github.io/authors/alessandro-chiesa/</link>
+    </image>
+    
+    <item>
+      <title>Concrete Security for Succinct Arguments from Vector Commitments</title>
+      <link>http://marceldallagnol.github.io/publication/kilian-pcp-iop/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/kilian-pcp-iop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

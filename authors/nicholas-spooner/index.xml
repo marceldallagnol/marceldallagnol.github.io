@@ -5,12 +5,20 @@
     <link>http://marceldallagnol.github.io/authors/nicholas-spooner/</link>
       <atom:link href="http://marceldallagnol.github.io/authors/nicholas-spooner/index.xml" rel="self" type="application/rss+xml" />
     <description>Nicholas Spooner</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 04 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Nicholas Spooner</title>
       <link>http://marceldallagnol.github.io/authors/nicholas-spooner/</link>
     </image>
+    
+    <item>
+      <title>Concrete Security for Succinct Arguments from Vector Commitments</title>
+      <link>http://marceldallagnol.github.io/publication/kilian-pcp-iop/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/kilian-pcp-iop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the Necessity of Collapsing for Post-Quantum and Quantum Commitments</title>

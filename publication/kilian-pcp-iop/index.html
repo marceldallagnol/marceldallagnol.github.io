@@ -28,16 +28,16 @@
   
     
   
-  <meta name="description" content="Collapse binding and collapsing were proposed by Unruh (Eurocrypt &#39;16) as post-quantum strengthenings of computational binding and collision resistance, respectively. These notions have been very successful in facilitating the &#34;lifting&#34; of classical security proofs to the quantum setting. A basic and natural question remains unanswered, however: are they the _weakest_ notions that suffice for such lifting?
+  <meta name="description" content="We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&#34;BCS&#34;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.
 
-In this work we answer this question in the affirmative by giving a classical commit-and-open protocol which is post-quantum secure if and only if the commitment scheme (resp. hash function) used is collapse binding (resp. collapsing). We also generalise the definition of collapse binding to mph{quantum commitment schemes}, and prove that the equivalence carries over even when the sender in the commit-and-open protocol above communicates quantum information.
+Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.
 
-This establishes that a variety of &#34;weak&#34; binding notions (sum binding, CDMS binding and unequivocality) are in fact _equivalent_ to collapse binding, both for post-quantum and quantum commitments.
+Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.
 
-Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum computationally binding commitment scheme that is not collapse binding can be used to build an equivocal commitment scheme (which can, in turn, be used to build one-shot signatures and other useful quantum primitives). This strengthens a result due to Zhandry (Eurocrypt &#39;19) showing that the same object yields quantum lightning.">
+Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &#34;random continuation sampling&#34; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP.">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://marceldallagnol.github.io/publication/chosen-bit-binding/">
+  <link rel="alternate" hreflang="en-us" href="http://marceldallagnol.github.io/publication/kilian-pcp-iop/">
 
   
 
@@ -109,7 +109,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://marceldallagnol.github.io/publication/chosen-bit-binding/">
+  <link rel="canonical" href="http://marceldallagnol.github.io/publication/kilian-pcp-iop/">
 
   
   
@@ -122,21 +122,21 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Marcel&#39;s website">
-  <meta property="og:url" content="http://marceldallagnol.github.io/publication/chosen-bit-binding/">
-  <meta property="og:title" content="On the Necessity of Collapsing for Post-Quantum and Quantum Commitments | Marcel&#39;s website">
-  <meta property="og:description" content="Collapse binding and collapsing were proposed by Unruh (Eurocrypt &#39;16) as post-quantum strengthenings of computational binding and collision resistance, respectively. These notions have been very successful in facilitating the &#34;lifting&#34; of classical security proofs to the quantum setting. A basic and natural question remains unanswered, however: are they the _weakest_ notions that suffice for such lifting?
+  <meta property="og:url" content="http://marceldallagnol.github.io/publication/kilian-pcp-iop/">
+  <meta property="og:title" content="Concrete Security for Succinct Arguments from Vector Commitments | Marcel&#39;s website">
+  <meta property="og:description" content="We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&#34;BCS&#34;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.
 
-In this work we answer this question in the affirmative by giving a classical commit-and-open protocol which is post-quantum secure if and only if the commitment scheme (resp. hash function) used is collapse binding (resp. collapsing). We also generalise the definition of collapse binding to mph{quantum commitment schemes}, and prove that the equivalence carries over even when the sender in the commit-and-open protocol above communicates quantum information.
+Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.
 
-This establishes that a variety of &#34;weak&#34; binding notions (sum binding, CDMS binding and unequivocality) are in fact _equivalent_ to collapse binding, both for post-quantum and quantum commitments.
+Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.
 
-Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum computationally binding commitment scheme that is not collapse binding can be used to build an equivocal commitment scheme (which can, in turn, be used to build one-shot signatures and other useful quantum primitives). This strengthens a result due to Zhandry (Eurocrypt &#39;19) showing that the same object yields quantum lightning."><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
+Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &#34;random continuation sampling&#34; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP."><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
   <meta property="twitter:image" content="http://marceldallagnol.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-09-04T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-11-13T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-09-04T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-11-13T00:00:00&#43;00:00">
   
 
   
@@ -160,16 +160,16 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://marceldallagnol.github.io/publication/chosen-bit-binding/"
+    "@id": "http://marceldallagnol.github.io/publication/kilian-pcp-iop/"
   },
-  "headline": "On the Necessity of Collapsing for Post-Quantum and Quantum Commitments",
+  "headline": "Concrete Security for Succinct Arguments from Vector Commitments",
   
-  "datePublished": "2021-09-04T00:00:00Z",
-  "dateModified": "2021-09-04T00:00:00Z",
+  "datePublished": "2023-11-13T00:00:00Z",
+  "dateModified": "2023-11-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Nicholas Spooner"
+    "name": "Alessandro Chiesa"
   },
   
   "publisher": {
@@ -180,7 +180,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
       "url": "http://marceldallagnol.github.io/img/icon-512.png"
     }
   },
-  "description": "Collapse binding and collapsing were proposed by Unruh (Eurocrypt '16) as post-quantum strengthenings of computational binding and collision resistance, respectively. These notions have been very successful in facilitating the \"lifting\" of classical security proofs to the quantum setting. A basic and natural question remains unanswered, however: are they the _weakest_ notions that suffice for such lifting?\n\nIn this work we answer this question in the affirmative by giving a classical commit-and-open protocol which is post-quantum secure if and only if the commitment scheme (resp. hash function) used is collapse binding (resp. collapsing). We also generalise the definition of collapse binding to \u001bmph{quantum commitment schemes}, and prove that the equivalence carries over even when the sender in the commit-and-open protocol above communicates quantum information.\n\nThis establishes that a variety of \"weak\" binding notions (sum binding, CDMS binding and unequivocality) are in fact _equivalent_ to collapse binding, both for post-quantum and quantum commitments.\n\nFinally, we establish a \"win-win\" result, showing that a post-quantum computationally binding commitment scheme that is not collapse binding can be used to build an equivocal commitment scheme (which can, in turn, be used to build one-shot signatures and other useful quantum primitives). This strengthens a result due to Zhandry (Eurocrypt '19) showing that the same object yields quantum lightning."
+  "description": "We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (\"BCS\", 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.\n\nOur first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.\n\nOur second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.\n\nFinally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural \"random continuation sampling\" (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP."
 }
 </script>
 
@@ -198,7 +198,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
 
 
 
-  <title>On the Necessity of Collapsing for Post-Quantum and Quantum Commitments | Marcel&#39;s website</title>
+  <title>Concrete Security for Succinct Arguments from Vector Commitments | Marcel&#39;s website</title>
 
 </head>
 
@@ -408,7 +408,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
   
   
 <div class="article-container pt-3">
-  <h1>On the Necessity of Collapsing for Post-Quantum and Quantum Commitments</h1>
+  <h1>Concrete Security for Succinct Arguments from Vector Commitments</h1>
 
   
 
@@ -431,7 +431,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
 
   
   with
-  <span><a href="https://spooner.cc/">Nicholas Spooner</a></span>.
+  <span><a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a></span>, <span><a href="https://ziyiguan.github.io/">Ziyi Guan</a></span> and <span><a href="https://spooner.cc/">Nicholas Spooner</a></span>.
 
   </div>
   
@@ -443,7 +443,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
     
       
     
-    2021
+    2023
   </span>
   
 
@@ -498,7 +498,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
   
       
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://eprint.iacr.org/2022/786" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eprint.iacr.org/2023/1737" rel="noopener">
   ePrint
 </a>
 
@@ -514,14 +514,6 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://tqc-conference.org/wp-content/uploads/cfdb7_uploads/1688327217-video-Talk.mp4" rel="noopener">
-  Video
-</a>
 
 
 
@@ -539,10 +531,10 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract"><p>Collapse binding and collapsing were proposed by Unruh (Eurocrypt &lsquo;16) as post-quantum strengthenings of computational binding and collision resistance, respectively. These notions have been very successful in facilitating the &ldquo;lifting&rdquo; of classical security proofs to the quantum setting. A basic and natural question remains unanswered, however: are they the <em>weakest</em> notions that suffice for such lifting?</p>
-<p>In this work we answer this question in the affirmative by giving a classical commit-and-open protocol which is post-quantum secure if and only if the commitment scheme (resp. hash function) used is collapse binding (resp. collapsing). We also generalise the definition of collapse binding to mph{quantum commitment schemes}, and prove that the equivalence carries over even when the sender in the commit-and-open protocol above communicates quantum information.</p>
-<p>This establishes that a variety of &ldquo;weak&rdquo; binding notions (sum binding, CDMS binding and unequivocality) are in fact <em>equivalent</em> to collapse binding, both for post-quantum and quantum commitments.</p>
-<p>Finally, we establish a &ldquo;win-win&rdquo; result, showing that a post-quantum computationally binding commitment scheme that is not collapse binding can be used to build an equivocal commitment scheme (which can, in turn, be used to build one-shot signatures and other useful quantum primitives). This strengthens a result due to Zhandry (Eurocrypt &lsquo;19) showing that the same object yields quantum lightning.</p>
+    <p class="pub-abstract"><p>We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&ldquo;BCS&rdquo;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.</p>
+<p>Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.</p>
+<p>Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.</p>
+<p>Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &ldquo;random continuation sampling&rdquo; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP.</p>
 </p>
     
 
@@ -594,7 +586,7 @@ Finally, we establish a &#34;win-win&#34; result, showing that a post-quantum co
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/nicholas-spooner/"></a></h5>
+      <h5 class="card-title"><a href="/authors/alessandro-chiesa/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
