@@ -28,14 +28,16 @@
   
     
   
-  <meta name="description" content="We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass access to a massive stream of data communicates with a powerful but untrusted prover to verify a computation that requires large space.
+  <meta name="description" content="We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&#34;BCS&#34;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.
 
- We define the notion of *zero-knowledge* in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the *sumcheck* and *polynomial evaluation* protocols. To the best of our knowledge *all* known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, and inner product. Our protocols are efficient in terms of time and space, as well as communication: the space complexity is $\mathrm{polylog}(n)$ and, after a non-interactive setup that uses a random string of near-linear length, the remaining parameters are $n^{o(1)}$.
+Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.
 
- En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a *homomorphic streaming commitment protocol* and a *temporal commitment protocol*. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity.">
+Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.
+
+Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &#34;random continuation sampling&#34; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP.">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://marceldallagnol.github.io/publication/streaming-zk/">
+  <link rel="alternate" hreflang="en-us" href="http://marceldallagnol.github.io/publication/kilian-pcp/">
 
   
 
@@ -107,7 +109,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://marceldallagnol.github.io/publication/streaming-zk/">
+  <link rel="canonical" href="http://marceldallagnol.github.io/publication/kilian-pcp/">
 
   
   
@@ -120,19 +122,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Marcel&#39;s website">
-  <meta property="og:url" content="http://marceldallagnol.github.io/publication/streaming-zk/">
-  <meta property="og:title" content="Streaming Zero-Knowledge Proofs | Marcel&#39;s website">
-  <meta property="og:description" content="We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass access to a massive stream of data communicates with a powerful but untrusted prover to verify a computation that requires large space.
+  <meta property="og:url" content="http://marceldallagnol.github.io/publication/kilian-pcp/">
+  <meta property="og:title" content="On the Security of Succinct Interactive Arguments from Vector Commitments | Marcel&#39;s website">
+  <meta property="og:description" content="We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&#34;BCS&#34;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.
 
- We define the notion of *zero-knowledge* in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the *sumcheck* and *polynomial evaluation* protocols. To the best of our knowledge *all* known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, and inner product. Our protocols are efficient in terms of time and space, as well as communication: the space complexity is $\mathrm{polylog}(n)$ and, after a non-interactive setup that uses a random string of near-linear length, the remaining parameters are $n^{o(1)}$.
+Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.
 
- En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a *homomorphic streaming commitment protocol* and a *temporal commitment protocol*. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity."><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
+Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.
+
+Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &#34;random continuation sampling&#34; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP."><meta property="og:image" content="http://marceldallagnol.github.io/img/icon-192.png">
   <meta property="twitter:image" content="http://marceldallagnol.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-09-04T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-11-13T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-09-04T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-11-13T00:00:00&#43;00:00">
   
 
   
@@ -156,16 +160,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://marceldallagnol.github.io/publication/streaming-zk/"
+    "@id": "http://marceldallagnol.github.io/publication/kilian-pcp/"
   },
-  "headline": "Streaming Zero-Knowledge Proofs",
+  "headline": "On the Security of Succinct Interactive Arguments from Vector Commitments",
   
-  "datePublished": "2022-09-04T00:00:00Z",
-  "dateModified": "2022-09-04T00:00:00Z",
+  "datePublished": "2023-11-13T00:00:00Z",
+  "dateModified": "2023-11-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Graham Cormode"
+    "name": "Alessandro Chiesa"
   },
   
   "publisher": {
@@ -176,7 +180,7 @@
       "url": "http://marceldallagnol.github.io/img/icon-512.png"
     }
   },
-  "description": "We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass access to a massive stream of data communicates with a powerful but untrusted prover to verify a computation that requires large space.\n\n We define the notion of *zero-knowledge* in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the *sumcheck* and *polynomial evaluation* protocols. To the best of our knowledge *all* known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, and inner product. Our protocols are efficient in terms of time and space, as well as communication: the space complexity is $\\mathrm{polylog}(n)$ and, after a non-interactive setup that uses a random string of near-linear length, the remaining parameters are $n^{o(1)}$.\n\n En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a *homomorphic streaming commitment protocol* and a *temporal commitment protocol*. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity."
+  "description": "We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (\"BCS\", 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.\n\nOur first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.\n\nOur second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.\n\nFinally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural \"random continuation sampling\" (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP."
 }
 </script>
 
@@ -194,7 +198,7 @@
 
 
 
-  <title>Streaming Zero-Knowledge Proofs | Marcel&#39;s website</title>
+  <title>On the Security of Succinct Interactive Arguments from Vector Commitments | Marcel&#39;s website</title>
 
 </head>
 
@@ -404,7 +408,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Streaming Zero-Knowledge Proofs</h1>
+  <h1>On the Security of Succinct Interactive Arguments from Vector Commitments</h1>
 
   
 
@@ -427,7 +431,7 @@
 
   
   with
-  <span><a href="https://www.dimacs.rutgers.edu/~graham/">Graham Cormode</a></span>, <span><a href="https://www.cst.cam.ac.uk/people/tg508">Tom Gur</a></span> and <span>Chris Hickey</span>.
+  <span><a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a></span>, <span><a href="https://ziyiguan.github.io/">Ziyi Guan</a></span> and <span><a href="https://spooner.cc/">Nicholas Spooner</a></span>.
 
   </div>
   
@@ -439,7 +443,7 @@
     
       
     
-    2022
+    2023
   </span>
   
 
@@ -489,14 +493,14 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2301.02161" rel="noopener">
-  arXiv
-</a>
 
+  
+  
+      
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eprint.iacr.org/2023/1737" rel="noopener">
+  ePrint
+</a>
 
 
 
@@ -527,9 +531,10 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract"><p>We initiate the study of zero-knowledge proofs for data streams. Streaming interactive proofs (SIPs) are well-studied protocols whereby a space-bounded algorithm with one-pass access to a massive stream of data communicates with a powerful but untrusted prover to verify a computation that requires large space.</p>
-<p>We define the notion of <em>zero-knowledge</em> in the streaming setting and construct zero-knowledge SIPs for the two main building blocks in the streaming interactive proofs literature: the <em>sumcheck</em> and <em>polynomial evaluation</em> protocols. To the best of our knowledge <em>all</em> known streaming interactive proofs are based on either of these tools, and indeed, this allows us to obtain zero-knowledge SIPs for many central streaming problems, such as index, frequency moments, and inner product. Our protocols are efficient in terms of time and space, as well as communication: the space complexity is $\mathrm{polylog}(n)$ and, after a non-interactive setup that uses a random string of near-linear length, the remaining parameters are $n^{o(1)}$.</p>
-<p>En route, we develop a toolkit for designing zero knowledge data stream protocols that may be of independent interest, consisting of a <em>homomorphic streaming commitment protocol</em> and a <em>temporal commitment protocol</em>. The analysis of our protocols relies on delicate information-theoretic arguments and reductions from average-case communication complexity.</p>
+    <p class="pub-abstract"><p>We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&ldquo;BCS&rdquo;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.</p>
+<p>Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.</p>
+<p>Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.</p>
+<p>Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &ldquo;random continuation sampling&rdquo; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP.</p>
 </p>
     
 
@@ -581,7 +586,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/graham-cormode/"></a></h5>
+      <h5 class="card-title"><a href="/authors/alessandro-chiesa/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
