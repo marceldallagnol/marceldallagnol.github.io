@@ -669,10 +669,16 @@
 
         
           <div class="content">
-            <p>We study the concrete security of a fundamental family of succinct interactive arguments, stemming from the works of Kilian (1992) and Ben-Sasson, Chiesa, and Spooner (&ldquo;BCS&rdquo;, 2016). These constructions achieve succinctness by combining probabilistic proofs and vector commitments.</p>
-<p>Our first result concerns the succinct interactive argument of Kilian, realized with any probabilistically-checkable proof (PCP) and any vector commitment. We establish the tightest known bounds on the security of this protocol. Prior analyses incur large overheads unsuitable for concrete security, or assume special (and restrictive) properties of the underlying PCP.</p>
-<p>Our second result concerns an interactive variant of the BCS succinct non-interactive argument, which here we call IBCS, realized with any public-coin interactive oracle proof (IOP) and any vector commitment. We establish tight bounds on the security of this protocol. While this variant has been informally discussed in the literature, no prior security analysis, even asymptotic, existed before this work.</p>
-<p>Finally, we study the capabilities and limitations of succinct arguments based on vector commitments. We show that a generalization of the IBCS protocol, which we call the Finale protocol, is secure when realized with any public-query IOP (a notion that we introduce) that satisfies a natural &ldquo;random continuation sampling&rdquo; (RCS) property. We also show a partial converse: if the Finale protocol satisfies the RCS property (which in particular implies its security), then so does the underlying public-query IOP.</p>
+            <p>Sigma protocols are elegant cryptographic proofs that have become a cornerstone of modern cryptography. A notable example is Schnorr&rsquo;s protocol, a zero-knowledge proof-of-knowledge of a discrete logarithm. Despite extensive research, the security of Schnorr&rsquo;s protocol in the standard model is not fully understood.</p>
+<p>In this paper we study <em>Kilian&rsquo;s protocol</em>, an influential public-coin interactive protocol that, while not a sigma protocol, shares striking similarities with sigma protocols. The first example of a succinct argument, Kilian&rsquo;s protocol is proved secure via <em>rewinding</em>, the same idea used to prove sigma protocols secure. In this paper we show how, similar to Schnorr&rsquo;s protocol, a precise understanding of the security of Kilian&rsquo;s protocol remains elusive. We contribute new insights via upper bounds and lower bounds.</p>
+<ul>
+<li>
+<p><em>Upper bounds.</em> We establish the tightest known bounds on the security of Kilian&rsquo;s protocol in the standard model, via strict-time reductions and via expected-time reductions. Prior analyses are strict-time reductions that incur large overheads or assume restrictive properties of the PCP underlying Kilian&rsquo;s protocol.</p>
+</li>
+<li>
+<p><em>Lower bounds.</em> We prove that significantly improving on the bounds that we establish for Kilian&rsquo;s protocol would imply improving the security analysis of Schnorr&rsquo;s protocol beyond the current state-of-the-art (an open problem). This partly explains the difficulties in obtaining tight bounds for Kilian&rsquo;s protocol.</p>
+</li>
+</ul>
 
           </div>
         
