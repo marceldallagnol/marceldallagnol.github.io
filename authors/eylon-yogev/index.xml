@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eylon Yogev | Marcel&#39;s website</title>
+    <link>http://marceldallagnol.github.io/authors/eylon-yogev/</link>
+      <atom:link href="http://marceldallagnol.github.io/authors/eylon-yogev/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eylon Yogev</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://marceldallagnol.github.io/img/icon-192.png</url>
+      <title>Eylon Yogev</title>
+      <link>http://marceldallagnol.github.io/authors/eylon-yogev/</link>
+    </image>
+    
+    <item>
+      <title>Untangling the Security of Kilian&#39;s Protocol: Upper and Lower Bounds</title>
+      <link>http://marceldallagnol.github.io/publication/kilian-pcp/</link>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/kilian-pcp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
