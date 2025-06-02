@@ -5,12 +5,20 @@
     <link>http://marceldallagnol.github.io/</link>
       <atom:link href="http://marceldallagnol.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Marcel&#39;s website</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Marcel&#39;s website</title>
       <link>http://marceldallagnol.github.io/</link>
     </image>
+    
+    <item>
+      <title> Quantum Rewinding for IOP-Based Succinct Arguments</title>
+      <link>http://marceldallagnol.github.io/publication/postquantum-ibcs/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/postquantum-ibcs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Untangling the Security of Kilian&#39;s Protocol: Upper and Lower Bounds</title>
