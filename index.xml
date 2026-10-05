@@ -5,7 +5,7 @@
     <link>http://marceldallagnol.github.io/</link>
       <atom:link href="http://marceldallagnol.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Marcel&#39;s website</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://marceldallagnol.github.io/img/icon-192.png</url>
       <title>Marcel&#39;s website</title>
@@ -13,7 +13,15 @@
     </image>
     
     <item>
-      <title> Quantum Rewinding for IOP-Based Succinct Arguments</title>
+      <title>The Generalized Semi-Clifford Conjecture Holds at Level 4</title>
+      <link>http://marceldallagnol.github.io/publication/c4-generalised-semi-clifford/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/c4-generalised-semi-clifford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Rewinding for IOP-Based Succinct Arguments</title>
       <link>http://marceldallagnol.github.io/publication/postquantum-ibcs/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://marceldallagnol.github.io/publication/postquantum-ibcs/</guid>

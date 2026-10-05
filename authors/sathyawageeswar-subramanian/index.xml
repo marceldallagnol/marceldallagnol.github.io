@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sathyawageeswar Subramanian | Marcel&#39;s website</title>
+    <link>http://marceldallagnol.github.io/authors/sathyawageeswar-subramanian/</link>
+      <atom:link href="http://marceldallagnol.github.io/authors/sathyawageeswar-subramanian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sathyawageeswar Subramanian</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://marceldallagnol.github.io/img/icon-192.png</url>
+      <title>Sathyawageeswar Subramanian</title>
+      <link>http://marceldallagnol.github.io/authors/sathyawageeswar-subramanian/</link>
+    </image>
+    
+    <item>
+      <title>The Generalized Semi-Clifford Conjecture Holds at Level 4</title>
+      <link>http://marceldallagnol.github.io/publication/c4-generalised-semi-clifford/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://marceldallagnol.github.io/publication/c4-generalised-semi-clifford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
